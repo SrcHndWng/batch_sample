@@ -37,5 +37,8 @@ Icon
 .Trashes
 
 .bundle/
-log/*
+
+logs/*
+!.gitkeep
+
 Gemfile.lock
