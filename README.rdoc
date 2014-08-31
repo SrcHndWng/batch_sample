@@ -13,10 +13,10 @@ Debug with pry-byebug.
 === Start Commandline
 
 * Development mode (with pry-byebug)
-$ ruby main.rb
+    * $ ruby main.rb
 
 * Production mode
-$ BATCH_ENV=production ruby main.rb
+    * $ BATCH_ENV=production ruby main.rb
 
 * RSpec (with pry-byebug)
-$ rspec spec/models/command_spec.rb
+    * $ rspec spec/models/command_spec.rb
