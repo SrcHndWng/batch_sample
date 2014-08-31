@@ -1,0 +1,12 @@
+defaults: &defaults
+  log_file_path: 'log/development.log'
+
+development:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  log_file_path: 'log/production.log'
+
+test:
+  <<: *defaults

@@ -1,0 +1,22 @@
+== README
+
+=== About
+This is a Small Batch Sample Application with Ruby, RSpec, Logger.
+Debug with pry-byebug.
+
+=== Environments
+
+* Ruby 2.1.0
+
+* RSpec 3.0.2
+
+=== Start Commandline
+
+* Development mode (with pry-byebug)
+$ ruby main.rb
+
+* Production mode
+$ BATCH_ENV=production ruby main.rb
+
+* RSpec (with pry-byebug)
+$ rspec spec/models/command_spec.rb
